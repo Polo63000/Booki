@@ -911,18 +911,46 @@ body {
 		margin: 0;
 		padding: 0;
 	}
+   
+  
+
     header{
+        display: flex;
+        justify-content: space-between;
+        
+        padding: 20px;
+      max-width: 767px;
+        margin: auto;
+      
        
-        margin:auto;
-        border:2px solid violet;
-    }
+          
+        border:2px solid violet;}
+      
     header ul{
-        padding-right:80px;
-        font-size: smaller;
+       
+        
     }
 
+    nav ul{
+        padding: 0;
+        padding-left:150px;
+        display:flex;
+        flex-direction: row;
     
+    }
     
+    nav li{
+        display: inline-block;
+        padding:0 100px;
+        
+    }
+    
+    nav li:hover{
+        border-top: 3px solid #0065FC;
+        padding-top: 15px;
+        margin-top: -48px;
+      
+    }
     html, body{
   
         height: 100%;
@@ -1187,7 +1215,8 @@ body {
     {
    display: flex;
       flex-direction  :column;
-    
+    margin-left:25px;
+
    width: 600px;
    height:400px;
 
